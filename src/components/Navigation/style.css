@@ -1,0 +1,81 @@
+#navbar{
+    padding: 1em;
+    color: #ffffff;
+}
+
+#navbar, .navbar-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar-brand{
+    font-size: 1.5em;
+}
+
+.navbar-links{
+    width: 40%;
+    justify-content: space-evenly;
+    font-size: .85em;
+    transition: all 500ms ease-in-out;
+}
+
+.navbar-btn{
+    border: 1px solid #E1FAF9;
+    padding: .5em 1.5em .5em 1.5em;
+    border-radius: 5px;
+    background: linear-gradient(75deg, #30354b, #161925);
+    font-weight: bold;
+}
+
+
+/* Mobile Navigation Menu  */
+
+.mobile-navbar{
+    color: #ffffff;
+}
+
+.navbar-menu-img{
+    width: 1.75em;
+}
+
+.navbar-menu-img img{
+    width: 100%;
+}
+
+.mobile-navbar-closed{
+    position: absolute;
+    top: -100em;
+    transition: all 500ms ease-in-out;
+}
+
+.mobile-navbar-open{
+    position: absolute;
+    transition: all 500ms ease-in-out;
+}
+
+
+@media (max-width: 769px) {
+    #navbar{
+        justify-content: space-between;
+        padding: 1em 2em 1em 2em;
+    }
+
+    .navbar-links{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 1em;
+        padding: 2em 0 2em 0;
+        background-color: #161925;
+    }
+
+    .navbar-links *{
+        margin-bottom: 1em;
+    }
+
+    .navbar-btn-div{
+        margin-top: 2em;
+    }
+}
