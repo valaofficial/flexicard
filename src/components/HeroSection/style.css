@@ -1,0 +1,27 @@
+.hero-section{
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-section-overlay{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #00000091;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-section-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+.hero-section-header{
+    font-size: 4em;
+    font-weight: bold;
+    font-family: "Prosto One", sans-serif;
+    margin-bottom: .5em;
+}

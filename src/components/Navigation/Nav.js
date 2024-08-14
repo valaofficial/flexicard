@@ -30,7 +30,7 @@ function LargeNav() {
     return(
         <section id='navbar'>
         <div className='navbar-brand'>
-            $Flexi-Card
+            $FlexiCard
         </div>
 
         <div className='navbar-links'>
@@ -56,7 +56,7 @@ function MobileNav() {
     <section className='mobile-navbar'>
         <section id='navbar'>
             <div className='navbar-brand'>
-                $Flexi-Card
+                $FlexiCard
             </div>
 
             <div className='navbar-image'>
